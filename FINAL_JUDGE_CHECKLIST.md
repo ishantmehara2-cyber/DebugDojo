@@ -1,0 +1,36 @@
+# Final Judge Checklist
+
+- [ ] 10+ challenges
+- [ ] 3+ difficulty levels
+- [ ] 4+ concepts
+- [ ] required four judge challenges
+- [ ] 3+ visible tests/challenge
+- [ ] 5+ hidden tests/challenge
+- [ ] passed
+- [ ] wrong output
+- [ ] runtime error
+- [ ] timeout
+- [ ] hidden tests protected
+- [ ] plain-language explanations
+- [ ] 3 progressive hints
+- [ ] hint leakage tested
+- [ ] five mistake categories
+- [ ] recurring after two challenges
+- [ ] targeted next challenge
+- [ ] mastery
+- [ ] API endpoints
+- [ ] restricted execution
+- [ ] network isolation
+- [ ] filesystem isolation
+- [ ] resource limits
+- [ ] red-team tests
+- [ ] 12 outcome tests
+- [ ] mobile tested
+- [ ] desktop tested
+- [ ] accessibility tested
+- [ ] build passes
+- [ ] lint passes
+- [ ] pytest passes
+- [ ] README complete
+- [ ] demo script ready
+- [ ] viva cheat sheet ready

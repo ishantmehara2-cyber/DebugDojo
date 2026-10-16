@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <rect width="48" height="48" rx="11" fill="#10151f"/>
+  <rect x="1" y="1" width="46" height="46" rx="10" fill="none" stroke="#c89e4d" stroke-opacity=".72"/>
+  <text x="24" y="33" fill="#f3d48a" font-family="serif" font-size="30" text-anchor="middle">道</text>
+</svg>

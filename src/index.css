@@ -1,0 +1,102 @@
+@import "tailwindcss";
+@import "./App.css";
+
+:root {
+  font-family: Inter, "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #173042;
+  background: #eaf4fa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+  --bg: #eaf4fa;
+  --surface: rgba(255,255,255,0.72);
+  --elevated: #f8fcfe;
+  --border: rgba(35, 107, 142, 0.14);
+  --gold: #236b8e;
+  --gold-light: #4c9fc1;
+  --success: #238a68;
+  --warning: #f4d58d;
+  --error: #c2414b;
+  --info: #d5eaf4;
+  --text: #173042;
+  --muted: #587080;
+  --faint: #7a909d;
+  --mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body,
+button,
+input {
+  font-family: Inter, "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+button,
+a,
+input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+a {
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--gold-light);
+  outline-offset: 3px;
+}
+
+::selection {
+  color: var(--bg);
+  background: var(--gold);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+svg {
+  flex-shrink: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
